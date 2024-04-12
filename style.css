@@ -1,0 +1,102 @@
+*{
+ background-color: aqua;  
+ margin: 0;
+ padding: 10;  
+ font-family: cursive;
+}
+body{
+
+    background-image: url(zzzzzz.jpeg);
+}
+
+
+
+ul{ 
+    float:right;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-right: 60px;
+list-style-type:none;
+
+}
+
+ ul li {
+    display: inline-block;
+  }
+
+
+ul li a {
+ color: #fffcfc;
+ padding: 5px 20px;
+ border: 1px solid transparent;
+ transition: 1.5s;
+ border-radius: 20px;
+}
+
+
+ul li a:hover {
+    color: blue;
+    background-color: yellowgreen;
+}
+
+ul li.active a{
+    color: aquamarine;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+ .logo img{
+    height: 50px;
+    width: 100px;
+    padding: 25px;
+    float: left;
+    border-radius: 50px;
+ }
+
+ .div.Navbar{
+    margin: auto;
+    background-color: solid lawngreen;
+
+
+ }   
+ .title{
+    background-image: url(background\ image.jpg );
+    position: absolute;
+    color: yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+  
+ 
+ .title h1{
+    color: blueviolet;
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+    top:50%;
+    left: 50%;
+
+ }
+
+ .title h1{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .btn1{
+    border: 2px solid rgb(252, 252, 252);
+    padding: 10px 20 px;
+    color: tomato;
+    font-size: 25px;
+    transition: 1.5s;
+    text-decoration: wavy;
+    
+ }
+.btn1:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 2px;
+}
+.title img{
+    width: 600px;
+    height: 300px;
+}
